@@ -2,14 +2,14 @@
   "expo": {
     "name": "Retangulo.org",
     "slug": "Retangulo",
-    "version": "1.1",
+    "version": "1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "cover",
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
       "backgroundColor": "#2563EB"
     },
     "ios": {
