@@ -1,5 +1,11 @@
+Instalar EAS
+
+```bash
+npm install --global eas-cli
+```
+
 Gerar apk
 
 ```bash
-eas build -p android --profile apk
+npm run build
 ```

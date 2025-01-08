@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
+    "build": "eas build -p android --profile apk",
+    "update": "eas update --channel 'apk'",
     "android": "expo start --android",
     "ios": "expo start --ios"
   },
@@ -13,7 +15,8 @@
     "react-native": "0.76.2",
     "react-native-webview": "13.12.4",
     "expo-splash-screen": "~0.29.11",
-    "expo-system-ui": "~4.0.3"
+    "expo-system-ui": "~4.0.3",
+    "expo-updates": "~0.26.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

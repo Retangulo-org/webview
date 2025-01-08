@@ -3,7 +3,8 @@
     "apk": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "channel": "apk"
     }
   }
 }
