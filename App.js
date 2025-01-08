@@ -25,7 +25,7 @@ export default function App() {
   return (
     <WebView
       style={styles.container}
-      source={{ uri: 'https://retangulo.pages.dev' }}
+      source={{ uri: 'https://retangulo.org' }}
       ref={webViewRef}
       cacheEnabled={true}
       thirdPartyCookiesEnabled
